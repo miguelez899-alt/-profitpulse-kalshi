@@ -1,0 +1,12 @@
+ProfitPulse v2 · instalación en GitHub desde iPhone
+
+1. En el repositorio miguelez899-alt/-profitpulse-kalshi abre server.js.
+2. Edita el archivo (icono del lápiz) y reemplaza TODO su contenido por el archivo server.js de esta carpeta. Guarda con Commit changes en la rama main.
+3. Railway detectará el cambio y desplegará la versión nueva automáticamente.
+4. Abre la web y pulsa Sincronizar Kalshi una vez. La nueva versión consulta las posiciones abiertas reales.
+
+Si GitHub móvil no permite sustituir un archivo tan grande, usa la opción Add file > Upload files para subir server.js sobre el existente, o hazlo desde un ordenador.
+
+No cambies las variables APP_PASSWORD, SESSION_SECRET, DATABASE_URL, KALSHI_KEY_ID ni KALSHI_PRIVATE_KEY. package.json es el mismo proyecto; solo se incluye por si inicias un repositorio nuevo.
+
+Importante: si un resultado carece de compras completas en el historial, seguirá apareciendo como pendiente y fuera del balance. El total llevará la etiqueta PARCIAL hasta que se concilie. Las compras abiertas no cuentan como pérdidas realizadas.
